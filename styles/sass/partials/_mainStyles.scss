@@ -1,0 +1,43 @@
+body {
+    background-color: $lightGray;
+
+    h2, p {
+        text-align: center;
+    }
+
+    p {
+        width: 93%;
+        margin: 25px 0;
+    }
+
+    .qrContainer {
+        max-width: 320px;
+        min-height: 500px;
+        background-color: $white;
+        padding: 18px;
+        border-radius: 20px;
+    }
+    
+    .mainDisplay {
+        height: 98vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    
+        .wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .imgContainer {
+        img {
+            border-radius: 20px;
+        }
+    }
+
+}
+
+footer {
+    height: 2vh;
+}
